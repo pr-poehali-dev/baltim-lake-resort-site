@@ -134,7 +134,7 @@ export default function Index() {
           <button onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} className="flex items-center gap-2">
             <span className="text-2xl">🌲</span>
             <div className="text-left">
-              <p className="font-cormorant text-xl font-semibold text-[#2f4a1a] leading-none">Лесная заводь</p>
+              <p className="font-cormorant text-xl font-semibold text-[#2f4a1a] leading-none">Ключи Урала</p>
               <p className="text-[10px] text-[#76a254] tracking-widest uppercase">база отдыха</p>
             </div>
           </button>
@@ -494,10 +494,10 @@ export default function Index() {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
             <span className="text-xl">🌲</span>
-            <span className="font-cormorant text-[#9dc07f] text-lg">Лесная заводь</span>
+            <span className="font-cormorant text-[#9dc07f] text-lg">Ключи Урала</span>
           </div>
           <p className="text-[#4f7a2e] text-xs text-center">
-            © 2025 База отдыха «Лесная заводь». Все права защищены.
+            © 2025 База отдыха «Ключи Урала». Все права защищены.
           </p>
           <div className="flex gap-4">
             {NAV_LINKS.slice(0, 3).map((l) => (
