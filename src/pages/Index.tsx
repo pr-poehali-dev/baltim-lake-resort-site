@@ -204,7 +204,7 @@ export default function Index() {
             className="font-cormorant text-white text-5xl md:text-7xl font-light leading-[1.1] mb-6"
             style={{ opacity: 0, animation: "fadeInUp 0.8s ease-out 0.5s forwards" }}
           >
-            Лесная <em className="not-italic text-[#9dc07f]">заводь</em>
+            Ключи <em className="not-italic text-[#9dc07f]">Урала</em>
           </h1>
           <p
             className="text-[#dfc9a4] text-lg md:text-xl font-light max-w-xl mx-auto mb-10"
