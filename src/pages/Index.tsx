@@ -125,11 +125,12 @@ export default function Index() {
       `}</style>
 
       {/* TOP BAR */}
-      <div className="fixed top-0 left-0 right-0 z-50 bg-[#2f4a1a] py-1.5 px-6 flex justify-center items-center gap-2">
+      <div className="fixed top-0 left-0 right-0 z-50 bg-[#2f4a1a] py-2 px-6 flex justify-center items-center gap-2">
         <Icon name="Phone" size={13} className="text-[#9dc07f]" />
-        <a href="tel:+79121234567" className="text-white text-xs tracking-wide hover:text-[#9dc07f] transition-colors">
-          +7 (912) 123-45-67 — бронирование
+        <a href="tel:+79121234567" className="text-white font-semibold text-sm tracking-wide hover:text-[#9dc07f] transition-colors">
+          +7 (912) 123-45-67
         </a>
+        <span className="text-[#76a254] text-xs">— бронирование</span>
       </div>
 
       {/* NAVBAR */}
@@ -141,7 +142,7 @@ export default function Index() {
         <div className="max-w-6xl mx-auto px-6 flex items-center justify-between">
           <button onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} className="flex items-center gap-2">
             <img
-              src="https://cdn.poehali.dev/projects/a1454682-609c-42ec-aa27-9f39288805db/files/122bdd48-6c1b-4158-b1af-9f46df3a3eae.jpg"
+              src="https://cdn.poehali.dev/projects/a1454682-609c-42ec-aa27-9f39288805db/files/64b839b5-c29b-4407-9fd3-31cb789a203e.jpg"
               alt="Логотип Ключи Урала"
               className="w-10 h-10 rounded-lg object-cover"
             />
