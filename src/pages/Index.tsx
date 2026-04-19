@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import Icon from "@/components/ui/icon";
 
-const LAKE_IMAGE = "https://cdn.poehali.dev/projects/a1454682-609c-42ec-aa27-9f39288805db/files/34686b49-e95e-4acc-bbce-70b317c503fa.jpg";
+const LAKE_IMAGE = "https://cdn.poehali.dev/projects/a1454682-609c-42ec-aa27-9f39288805db/files/e78d71ac-7bd3-490d-a602-b8190daf8fe4.jpg";
 
 const NAV_LINKS = [
   { id: "about", label: "О базе" },
