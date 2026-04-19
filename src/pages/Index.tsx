@@ -147,8 +147,8 @@ export default function Index() {
               className="w-10 h-10 rounded-lg object-cover"
             />
             <div className="text-left">
-              <p className="font-cormorant text-xl font-semibold text-[#2f4a1a] leading-none">Ключи Урала</p>
-              <p className="text-[10px] text-[#76a254] tracking-widest uppercase">база отдыха</p>
+              <p className={`font-cormorant text-xl font-semibold leading-none ${navVisible ? "text-[#2f4a1a]" : "text-white drop-shadow-md"}`}>Ключи Урала</p>
+              <p className={`text-[10px] tracking-widest uppercase ${navVisible ? "text-[#76a254]" : "text-white/70"}`}>база отдыха</p>
             </div>
           </button>
 
@@ -157,7 +157,7 @@ export default function Index() {
               <button
                 key={l.id}
                 onClick={() => scrollTo(l.id)}
-                className="text-sm text-[#3a2710] hover:text-[#4f7a2e] transition-colors duration-200 tracking-wide"
+                className={`text-sm transition-colors duration-200 tracking-wide ${navVisible ? "text-[#3a2710] hover:text-[#4f7a2e]" : "text-white/90 hover:text-white drop-shadow-sm"}`}
               >
                 {l.label}
               </button>
