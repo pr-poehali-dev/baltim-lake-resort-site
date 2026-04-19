@@ -130,7 +130,7 @@ export default function Index() {
         <a href="tel:+79121234567" className="text-white font-semibold text-sm tracking-wide hover:text-[#9dc07f] transition-colors">
           +7 (912) 123-45-67
         </a>
-        <span className="text-[#76a254] text-xs">— бронирование</span>
+        <span className="text-white/70 text-xs">— бронирование</span>
       </div>
 
       {/* NAVBAR */}
