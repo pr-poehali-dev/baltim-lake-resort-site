@@ -191,23 +191,23 @@ export default function Index() {
           className="absolute inset-0 w-full h-full object-cover"
           style={{ animation: "fadeInSlow 1.6s ease-out forwards" }}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#17250d]/40 via-[#17250d]/20 to-[#17250d]/60" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/55 via-black/40 to-black/70" />
 
         <div className="relative z-10 text-center px-6 max-w-3xl mx-auto">
           <p
-            className="font-golos text-[#c4d9b0] text-sm tracking-[0.3em] uppercase mb-5"
+            className="font-golos text-white/80 text-sm tracking-[0.3em] uppercase mb-5 drop-shadow-md"
             style={{ opacity: 0, animation: "fadeInUp 0.8s ease-out 0.2s forwards" }}
           >
             База отдыха на берегу озера
           </p>
           <h1
-            className="font-cormorant text-white text-5xl md:text-7xl font-light leading-[1.1] mb-6"
+            className="font-cormorant text-white text-5xl md:text-7xl font-light leading-[1.1] mb-6 drop-shadow-lg"
             style={{ opacity: 0, animation: "fadeInUp 0.8s ease-out 0.5s forwards" }}
           >
             Ключи <em className="not-italic text-[#9dc07f]">Урала</em>
           </h1>
           <p
-            className="text-[#dfc9a4] text-lg md:text-xl font-light max-w-xl mx-auto mb-10"
+            className="text-white/90 text-lg md:text-xl font-light max-w-xl mx-auto mb-10 drop-shadow-md"
             style={{ opacity: 0, animation: "fadeInUp 0.8s ease-out 0.8s forwards" }}
           >
             Тишина леса, живое озеро и чистый воздух — настоящий отдых от городской суеты
